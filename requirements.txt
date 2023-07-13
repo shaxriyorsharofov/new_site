@@ -1,0 +1,10 @@
+chill==0.9.0
+django==4.2.1
+django-dotenv==1.4.2
+django-environ==0.10.0
+environs==9.5.0
+gunicorn==20.1.0
+pillow==9.5.0
+pip-chill==1.0.3
+pipenv==2023.5.19
+whitenoise==6.5.0
