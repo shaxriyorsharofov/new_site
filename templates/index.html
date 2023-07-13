@@ -9,7 +9,7 @@
       <div class="col-lg-8 col-md-8 col-sm-8">
         <div class="slick_slider">
           {% for i in news %}
-          <div class="single_iteam"> <a href="{% url 'news-detail' i.pk %}"> <img src="{{ i.image.url }}"></a>
+          <div class="single_iteam"> <a href="{% url 'news-detail' i.pk %}"> <img src=""></a>
             <div class="slider_article">
               <h2><a class="slider_tittle" href="{% url 'news-detail' i.pk %}">{{ i.title}}</a></h2>
               <p>{{ i.body|truncatewords:5  }}</p>
